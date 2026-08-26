@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cracker — Privacy Policy</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<nav><a href="index.html">Cracker — Legal</a></nav>
+<main>
+  <h1>Privacy Policy</h1>
+  <p class="meta">Last updated August 26, 2026</p>
+
+  <p>Cracker ("the app", "we", "us") is a nutrition-logging app for iOS published by
+  Oleksandr Glushchenko. This policy explains what data the app collects, why, and how
+  it is handled. It applies to the Cracker iOS app and its backend services.</p>
+
+  <h2>Data we collect</h2>
+  <p><strong>Account data.</strong> When you sign in with Apple, Google, or email, we
+  store your account identifier, email address, and authentication session — handled by
+  our authentication provider, Supabase.</p>
+
+  <p><strong>Health data (Apple Health).</strong> With your permission, the app reads
+  your sex, date of birth, height, weight, steps, workouts, sleep, and heart rate from
+  Apple Health so your calorie and macro targets reflect your body and activity. This
+  data is used on-device and on our servers only to calculate your targets — it is never
+  sold or shared with advertisers.</p>
+
+  <p>Separately, and only if you turn it on in Settings, the app can write the meals you
+  log back to Apple Health as food entries (calories, protein, carbs, fat, fibre, sugar,
+  sodium, potassium, and saturated fat), so other apps you use can see what you ate.
+  Reading and writing Health data are independent permissions you grant separately, and
+  either can be revoked at any time in iOS Settings → Privacy & Security → Health.</p>
+
+  <p><strong>Meals you log.</strong> Photos, voice recordings, barcodes, and text you
+  submit to log a meal. Photos are stored in encrypted cloud storage (Google Cloud
+  Storage) only for as long as a meal record references them, and are deleted once that
+  record is removed. Voice recordings are processed to extract what you said and are not
+  retained after processing. Meal photos, voice, and text are sent to Google's Gemini AI
+  models for analysis (identifying food items and estimating nutrition) — Google
+  processes this data as our subprocessor and does not use it to train its own models
+  outside the terms of that processing agreement.</p>
+
+  <p><strong>Subscription and purchase data.</strong> If you subscribe to Cracker
+  Premium, Apple processes your payment — we never see your card details. Purchase
+  receipts and your subscription status are managed through RevenueCat, which receives
+  your in-app user identifier and purchase/transaction data from Apple to determine
+  your entitlement.</p>
+
+  <p><strong>Usage and diagnostics.</strong> We log API requests (endpoint, timestamp,
+  response status, and account identifier) for reliability, abuse prevention, and to
+  enforce fair-use limits on AI-powered features. We do not use third-party advertising
+  or analytics trackers.</p>
+
+  <h2>How we use your data</h2>
+  <ul>
+    <li>To provide the app's core functionality: logging meals, computing nutrition,
+    and tracking progress toward your goals.</li>
+    <li>To calculate personalised calorie and macro targets from your health profile.</li>
+    <li>To manage your account, subscription, and entitlements.</li>
+    <li>To maintain and improve service reliability and prevent abuse.</li>
+  </ul>
+  <p>We do not sell your personal data, and we do not use your health data or meal
+  photos for advertising.</p>
+
+  <h2>Who we share data with</h2>
+  <p>We share data only with the service providers necessary to run the app, each acting
+  as our data processor under its own privacy terms:</p>
+  <ul>
+    <li><strong>Supabase</strong> — authentication and database hosting.</li>
+    <li><strong>Google Cloud Platform</strong> — file storage and infrastructure hosting.</li>
+    <li><strong>Google (Gemini API)</strong> — AI analysis of meal photos, voice, and text.</li>
+    <li><strong>Apple</strong> — sign-in, HealthKit, and in-app purchase processing.</li>
+    <li><strong>RevenueCat</strong> — subscription and entitlement management.</li>
+  </ul>
+  <p>We do not share your data with data brokers or advertisers, and we disclose data to
+  law enforcement only when legally required to do so.</p>
+
+  <h2>Data retention and deletion</h2>
+  <p>Your account data and meal history are retained for as long as your account is
+  active. You can request deletion of your account and all associated data at any time
+  by contacting us at the address below; we will delete your data within 30 days except
+  where retention is required by law (for example, tax records relating to a purchase).</p>
+
+  <h2>Your rights</h2>
+  <p>Depending on where you live, you may have the right to access, correct, export, or
+  delete your personal data, and to withdraw consent for optional permissions (such as
+  Health data access) at any time. Contact us to exercise any of these rights.</p>
+
+  <h2>Children's privacy</h2>
+  <p>Cracker is not directed at children under 13, and we do not knowingly collect
+  personal data from children under 13.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>We may update this policy as the app changes. Material changes will be reflected by
+  updating the "Last updated" date above.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy or your data: <a href="mailto:alex.glushcenko@gmail.com">alex.glushcenko@gmail.com</a></p>
+</main>
+<footer>© 2026 Oleksandr Glushchenko</footer>
+</body>
+</html>
